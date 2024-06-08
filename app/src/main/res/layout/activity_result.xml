@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/result"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/result_bg"
+        android:scaleType="centerCrop"/>
+
+    <ImageView
+        android:id="@+id/curse_img"
+        android:layout_width="273dp"
+        android:layout_height="273dp"
+        android:layout_gravity="center"
+        android:src="@drawable/curse"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="240dp" />
+
+    <ImageView
+        android:id="@+id/modoru_img"
+        android:layout_width="84dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:src="@drawable/modoru_img" />
+
+    <TextView
+        android:id="@+id/daikyou_img"
+        android:text="大凶"
+        android:textSize="96sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</FrameLayout>

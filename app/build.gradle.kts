@@ -3,12 +3,12 @@ plugins {
 }
 
 android {
-    namespace = "com.example.omikujiapp"
+    namespace = "com.example.myapplication"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.omikujiapp"
-        minSdk = 29
+        applicationId = "com.example.myapplication"
+        minSdk = 24
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
