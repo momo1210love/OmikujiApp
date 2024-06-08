@@ -35,35 +35,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Random random = new Random();
-                int num = random.nextInt(6);
+                int num = random.nextInt(17);
 
-                // TODO: 占いロジックを実行する
                 //  結果画面に遷移させる
                 Intent intent = new Intent(MainActivity.this, ResultActivity.class);
                 intent.putExtra("result_id", num);
                 startActivity(intent);
-
-//                switch(num) {
-//                    case 0:
-//                        System.out.println("大吉");
-//                        break;
-//                    case 1:
-//                        System.out.println("中吉");
-//                        break;
-//                    case 2:
-//                        System.out.println("小吉");
-//                        break;
-//                    case 3:
-//                        System.out.println("吉");
-//                        break;
-//                    case 4:
-//                        System.out.println("凶");
-//                        break;
-//                    case 5:
-//                        System.out.println("大凶");
-//                        break;
-//                }
-
+                
             }
         });
     }

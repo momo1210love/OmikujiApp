@@ -42,18 +42,29 @@ public class ResultActivity extends AppCompatActivity {
                 curseImg.setImageResource(R.drawable.great_blessing);
                 break;
             case 1:
+            case 6:
                 daikyouImg.setText("中吉");
                 curseImg.setImageResource(R.drawable.middle_blessing);
                 break;
             case 2:
+            case 7:
+            case 8:
+            case 9:
+            case 10:
                 daikyouImg.setText("小吉");
                 curseImg.setImageResource(R.drawable.small_blessing);
                 break;
             case 3:
+            case 11:
+            case 12:
+            case 13:
+            case 14:
+            case 15:
                 daikyouImg.setText("吉");
                 curseImg.setImageResource(R.drawable.blessing);
                 break;
             case 4:
+            case 16:
                 daikyouImg.setText("凶");
                 curseImg.setImageResource(R.drawable.curse);
                 break;
